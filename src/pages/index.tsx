@@ -532,9 +532,9 @@ export default function EMDRApp() {
         </div>
       </header>
 
-      <div className="w-full mx-auto pt-24 pb-8 px-4 flex flex-col items-center">
+      <div className="w-full h-full grow mx-auto pt-24 pb-8 px-4 flex flex-col items-center justify-center">
         {/* Dots Visualization Area */}
-        <div className="relative w-full h-60 bg-white/10 dark:bg-black/20 backdrop-blur-sm rounded-xl shadow-inner flex items-center justify-center">
+        <div className="relative w-full h-60 bg-white/10 dark:bg-black/20 backdrop-blur-sm rounded-xl flex items-center justify-center">
           <div
             className="absolute top-1/2 left-1/2 flex emdr"
             style={{
